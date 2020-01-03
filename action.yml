@@ -1,0 +1,19 @@
+# action.yml
+name: 'dlint check'
+description: 'Github Action to lint Python code with dlint from Duo Labs'
+branding:
+  icon: 'shield'
+  color: 'green'
+inputs:
+  path: 
+    description: 'Path to run dlint check on' 
+    required: false
+    default: '.'
+outputs:
+  output: 
+    description: 'Linter output'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
