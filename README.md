@@ -1,6 +1,6 @@
 # dlint-check 
 
-This Github Action runs dlint security linter on your Python code. 
+This GitHub Action runs dlint security linter on your Python code. 
 
 ## Inputs
 
@@ -33,4 +33,4 @@ Linter output
 ```
 
 ## Special notes
-This Github Action was inpsired by [bandit-check](https://github.com/jpetrucciani/bandit-check) and official issue [#29](https://github.com/duo-labs/dlint/issues/29).
+This GitHub Action was inpsired by [bandit-check](https://github.com/jpetrucciani/bandit-check) and official issue [#29](https://github.com/duo-labs/dlint/issues/29).
